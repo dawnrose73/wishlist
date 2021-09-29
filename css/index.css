@@ -441,12 +441,15 @@ body {
     margin: 0 0 0 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     body.lock {
         overflow: hidden;
     }
     .header {
         height: 100px;
+    }
+    .header__content {
+        max-width: 727px;
     }
     .header__logo {
         width: 60px;
@@ -560,6 +563,9 @@ body {
     .header {
         height: 60px;
     }
+    .header__content {
+        max-width: 440px;
+    }
     .header__logo {
         width: 40px;
         height: 40px;
@@ -605,6 +611,9 @@ body {
 }
 
 @media (max-width: 320px) {
+    .header__content {
+        max-width: 280px;
+    }
     .actions {
         height: 1170px;
     }
